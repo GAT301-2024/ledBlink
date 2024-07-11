@@ -1,6 +1,6 @@
-const int led_power_pin1 = 15;
-const int led_power_pin2 = 30;
-const int led_power_pin3 = 33;
+const int led_power_pin1 = 13;
+const int led_power_pin2 = 26;
+const int led_power_pin3 = 27;
  
 void setup() {
 
