@@ -1,7 +1,8 @@
-
+//defining variables
 const int ledPowerPin9=25;
 const int ledPowerPin2=15;
 const int ledPowerPin5=13;
+//setup code that runs once
 void setup() {
   pinModel(ledPowerPin9,OUTPUT);
   pinModel(ledPowerPin2,OUTPUT);
@@ -10,6 +11,7 @@ void setup() {
 
   Serial.println("initializing");
 }
+//loop
 
 void loop() {
   digitalWrite(ledPowerPin9,HIGH);
