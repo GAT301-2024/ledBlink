@@ -1,5 +1,5 @@
-const int led1 = 4;
-const int led2 = 5;
+const int led1 = 5;
+const int led2 = 8;
 const int led3 = 13;
 
 void setup(){
@@ -12,15 +12,15 @@ void setup(){
 
 void loop(){
   digitalWrite(led1, HIGH);
-  delay(500);
+  delay(300);
   digitalWrite(led1, LOW);
-  delay(500);
+  delay(300);
   digitalWrite(led2, HIGH);
-  delay(500);
+  delay(300);
   digitalWrite(led2, LOW);
-  delay(500);
+  delay(300);
   digitalWrite(led3, HIGH);
-  delay(500);
+  delay(300);
   digitalWrite(led3, LOW);
-  delay(500);
+  delay(300);
 }
